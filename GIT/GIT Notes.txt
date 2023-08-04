@@ -1,0 +1,175 @@
+------------------------------------------------------------------------------------------>  GIT  <--------------------------------------------------------------------------------------------------
+
+---1st configure username and mail id
+
+git config --global user.name Vinoth
+git config --global user.email vinothofficial14@wipro.com
+
+---To Create Git repoistory
+
+cd path of directory
+git init
+
+---To Commit and  status
+
+adding file to staging area
+git add file-name
+
+to add multiple file
+git add file1 file2
+ 
+to add all file ending with py
+git add *.py
+
+To add all files
+git add .
+
+To check status
+git status
+git status -s
+
+To commit the file
+git commit -m "Initial commit"
+(-m is used for messaging)
+
+---After Delete file  ( we need to commit that also )
+
+we have add it first and then commit
+git add file-name
+git commit -m ""
+
+if we rename we have to add both old and new name and commit
+
+---To check changes happend till now
+
+git log
+git log --oneline
+
+to get top 3 changes
+git log -3
+
+---To check diffrence
+after modyfing the file 
+
+git diff file-name
+
+---To delete the commit that done before
+
+git  checkout commitid
+(commit id can get from log )
+
+to delete again the previous step ^
+git checkout master
+
+---To ignore the file that not to be added for staging are 
+
+1)create .gitignore file in GIT repoistory
+2)add that filenames and .gitignore
+3)given filenames will be ignore and didnt show in status
+
+---To remove and rename file
+git rm filename
+git mv filename newname
+
+---To know about commit
+git show commit id
+
+---Reset and Amend
+
+git reset --hard Head-1
+git reset --hard commitid
+
+(hard-cant recover soft-can recover and it will be in staging area)
+it will avoid no of lines from head[head-n]
+
+Amend is used to change commit message and add file to same commit
+git commit --amend -m " "
+
+---Branch 
+To View branch 
+git branch
+
+To create branch (profile)- (copy of master later we can merge if it is working)
+git branch branch name
+
+To open that copy
+git checkout brnch name
+
+Shortcut to create and checkout the branch
+git checkout -b branch name
+
+To Delete branch
+git branch -d brnch name
+
+To merge - come to master profile ---preferable
+git merge brnch name
+
+To rebase -come to master 
+git rebase brnch name
+
+---To add file to online GITHUb
+
+To add remote (named origin througgh which we can push the master or branch)
+git remote add origin https://github.com/Vin0th14/GIT.git
+
+To push the branch origin
+git push origin brnhname or master
+
+We can create push request so that someone can review befor it is merged with Master
+
+after adding changes to branch and uploading to online it will ask for compare & pull request and reviewers
+
+Then we can merge branch to master - it will only merge master online
+
+---To merge offline we have to use pull command
+
+git pull origin master/brnch name
+
+---Conflict
+when two brach changing same file same line it will give an conflict 
+
+to clear conflict click web editor and keep any one cmd line and remove everything
+
+and mark it as resolved and commit merge
+
+---to create a repository in web and open that in pc
+create a repository in web
+In git bash use the command
+
+git clone websiteurl
+
+repository will be created 
+
+------------------------------------------------------------------------------------------->  End  <-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
