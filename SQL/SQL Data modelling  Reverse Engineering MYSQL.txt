@@ -1,0 +1,16 @@
+Data modelling - Reverse Enginerring 
+create new connection 
+create database and table 
+
+create database reverse_eng;
+use reverse_eng;
+
+create table Ward (ward_no int,floor int,nurses int,bed int,primary key(ward_no));
+create table Doctor (doctor_id int,name varchar(20),Specialization varchar(20),ward_no int,salary int,primary key(doctor_id),foreign key(ward_no) references Ward(ward_no) );
+create table Patient (patient_id int,name varchar(20),DOB date,Address varchar(50),doctor_id int,visit_date date,primary key(patient_id),foreign key(doctor_id) references Doctor(doctor_id) );
+
+click database tab on top and click reverse engineer
+select the connection you created for rev eng
+click next 
+select the database you created (reverse_eng in above case)
+click next and finish thats  it.

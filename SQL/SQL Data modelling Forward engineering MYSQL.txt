@@ -1,0 +1,25 @@
+----------------------------------------> Data  Modelling Forward enginerring <---------------------------------------------------
+
+converting model to code
+
+create a new connection
+double click on my db to rename it
+double click on add diagram to create a err page 
+click on table icon and double click somewhr to create a table and rename it  after creating
+and add column name and its datatypes 
+creaate n number of tables needed
+Double click  the table which used foreign key 
+click foreign key tab and add foreign key and select the table nearby 
+dont forget to click Skip in SQL generation check box
+------
+Database tab from top --> Forward engineer
+select the connection you created at first
+click next 
+forwarrd engineer successfully 
+-----
+come to query page 
+click on schema at bottom left 
+refresh schhema 
+you will find the created database
+use the database and use  select to display the tables.
+
