@@ -1,0 +1,27 @@
+﻿Priority,Hospital,Profit,Price,Payor Segment,Category,Sub Category,Function,Service,State,Zip Code,Physician,Region
+Low,North Hospital,-213.25,38.94,Personal                    Cost,Labor & Delivery,Labor & Deepak,OB-LDR,Investigative Protocol,New Jersey,7514,Bray,East
+Not Specified,North Hospital,-4.64,2.08,Medicaid,Critical Care,Critical Care,Cardio Thoracic,DG/DGH/56I,New York,10457,JOHNSON,East
+High,North Hospital,-128.38,8.46,Medicaid,NICU,Inpatient,Special Care,Women-Newborn,Ohio,44197,GONZALES,Central
+High,South Hospital,-1748.56,70.89,Medicaid,Surgical,Abdominal,Quarantine,Investigative Protocol,Ohio,44197,GONZALES,Central
+High,North Hospital,-85.129,7.99,Medicaid,Step Down,Medical,Cardiac,Investigative Protocol,Ohio,44197,GONZALES,Central
+High,North Hospital,1054.82,107.53,Medicaid,Surgical,Inpatient,General Surgery,Surgery,Ohio,44197,GONZALES,Central
+Not Specified,North Hospital,60.72,9.11,Medicaid,Surgical,Gyne Oncology,Gyne Oncology,DGH Nrs Gyne Oncology 4400 EP,Michigan,49822,HAYES,Central
+Not Specified,North Hospital,48.987,155.99,Medicaid,Psychologych,Psychology,Psychology,DGH Nrs- Psychology Adult 15300 WP,Michigan,49822,HAYES,Central
+Urgent,North Hospital,657.477,65.99,Corporate            Insurance,Ante/Post Partum,Inpatient,OB Antepartum,Women-Newborn,Connecticut,6074,Hollis,East
+Urgent,North Hospital,1470.3,115.79,Medicaid,Critical Care,Critical Care,Neuro,DG/DGH/104I,Delaware,19936,MARTIN,East
+Low,North Hospital,7.57,2.88,Medicare,Critical Care,Critical Care,Cardio Thoracic,DG/DGH/56I,North Carolina,27006,HILL,South
+High,North Hospital,29.42,18.97,Medicare,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9200 RJ,Delaware,19895,WHITE,East
+Not Specified,Downtown Hospital,0.35,1.68,Medicaid,Step Down,Step Down,Surgery,Investigative Protocol,Ohio,43567,FOSTER,Central
+Low,North Hospital,2057.166,205.99,Corporate           Insurance,Step Down,Thoracic,Surgery,DGH DOU Thoracic      7100 Quarantine,North Carolina,27006,HILL,South
+Low,North Hospital,-107,1.86,Corporate Insurance,Step Down,Down,Cardiac,Investigative Protocol,North Carolina,27006,HILL,South
+High,North Hospital,1228.887,125.99,Corporate           Insurance,Surgical,Orthopedic,Orthopedic,DGH Nrs-Orthopedic 73WP / 74 EP,Texas,73301,SIMPSON,Central
+Low,North Hospital,-11.682,65.99,Medicaid,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9100 Quarantine,Mass,2054,Bradley,East
+Not Specified,Downtown Hospital,-1191.13,35.48,Medicaid,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9200 RJ,Washington,98601,FRANKLIN,West
+High,North Hospital,71.75,18.97,Medicaid,BMT,BMT Oncology,BMT Oncology,DGH Nrs Oncology-BMT 5900 SH,Florida,32003,MORRIS,South
+High,Downtown Hospital,-356.12,150.98,Medicaid,Ante/Post Partum,Ante/Post Partum,OB Antepartum,DG/DGH/53,Florida,32003,MORRIS,South
+Low,North Hospital,-5.45,13.48,Medicare,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9200 RJ,Michigan,49822,HAYES,Central
+Urgent,South Hospital,619.71,370.98,Corporate Insurance,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9100 Quarantine,Washington,98390,KELLEY,West
+High,North Hospital,15.77,34.76,Personal Cost,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9200 RJ,Colorado,80746,WARREN,West
+Urgent,North Hospital,1312.038,205.99,Medicaid,Medical,Cardiology,Cardiology,DGH Nrs Cardiology    9200 RJ,Colorado,80001,BOYD,West
+Not Specified,North Hospital,-89.25,4.98,Medicare,Surgical,Abdominal,Quarantine,Investigative Protocol,Ohio,43054,HUGHES,Central
+High,Downtown Hospital,-126.093,65.99,Medicare,Step Down,Surg,Surgery,DGH DOU Surg          4300 WP,Utah,84001,MILLS,West
