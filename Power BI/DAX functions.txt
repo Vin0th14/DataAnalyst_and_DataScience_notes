@@ -1,0 +1,64 @@
+DAX functions
+
+DAX (Data Analysis Expressions) is a formula expression language and can be used in different BI and visualization tools. DAX is also known as function language, where the full code is kept inside a function. DAX helps you create new information from data already in your model.
+We can have Calculated columns,Measures,Calculated Tables
+
+Aggregate - MAX,MIN,AVERAGE,SUM,SUMX
+MATHS-ADD,SUB,MULTIPLY,DIVIDE
+Text - REPLACE,SEARCH,UPPER,LOWER,FIXED,CONCATENATE
+DATE-DATE,HOUR,WEEKDAY,NOW,EOMONTH
+LOGICAL-AND,OR,NOT,IF,IFERROR
+COUNTING - DISTINCTCOUNT,COUNT,COUNTA,COUNTROWS,COUNTBLANK
+INFORMATION - ISBLANK,ISNUMBER,ISTEXT,ISNONTEXT,ISERROR
+
+Operators
+& - Text concatenate
+&&,||,!-AND,OR,NOT
+
+
+If function - col
+Old or new joinee = IF(EMP_Details[Year]>1990,"Young","Old")
+
+Year - col
+Year = YEAR(EMP_Details[DOB])
+
+Count - measure
+No of employee = count(EMP_Details[EID])
+
+Min - measure
+Older Employee = MIN(EMP_Details[Year])
+
+RIGHT,LEFT - col
+First 3 = LEFT(EMP_Details[NAME],3)   3 is no of char from left
+
+TABLE CREATION 
+YOUNGER = CALCULATETABLE(EMP_Details,EMP_Details[Year]>1990)
+
+To take  a value from another table use Related   - Both tables shoud have relation with primary key
+Col_name=Related(AnotherTable(ColumnNameOfAnotherTable)
+
+date functions - col
+Day = DAY('Orders (2)'[Order Date].[Date])
+Month = MONTH('Orders (2)'[Order Date].[Date])
+Year = 'Orders (2)'[Order Date].[Year]   ---Another method
+NOW() -- Giver current date and day
+Add days = DATEADD('Orders (2)'[Order Date].[Date],10,DAY)
+
+If error
+col = IFERROR(Orders[Quantity]/Orders[Discount],0)    - if 0 div error comes it will replace with 0
+
+AND operation
+col = AND(condition1,condition2,Value if it is true,Value if it is true)
+col = OR(condition1,condition2,Value if it is true,Value if it is true)
+
+Measures
+
+
+
+
+
+
+
+
+
+
