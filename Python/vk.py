@@ -8,7 +8,7 @@ from scipy import stats
 import warnings
 warnings.filterwarnings("ignore")
 df = pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/CAR.csv")
-
+print('chck')
 
 
 
