@@ -1,0 +1,63 @@
+Linera algebra 
+
+Scalar - magnitude - eg..weight,height,any numbers,speed
+
+Vector(Directon) - travelled in 40 km/hr in south direction - south is vector pointing towards direction
+
+vector = AB>  [ > - Above arrow mark]  - It is always magnitute and direction
+scalar = AB
+
+Types of vector
+
+Zero vector - vector with zero magnitude [car parked at location]
+unit vector - vector with magnitute is 1 unit
+coinitial vector - 2 or more start from same point
+colinear vector - 2 or more lying on parallel line
+Equal  vectors - 2 or more in same  magnitute and direction
+unequal vector - 2 or more in diffrent  magnitute and same direction
+Negative vector - vector with same magnitute with opposite direction
+
+
+Add and subtract vectors
+
+Two methods [Triangle and Parallelogram]
+
+Triangle - a>+b>=(a>+b>)
+Parallelogram - AB>=a>  BC>=b>  then AB>+BC>=(a>+b>)
+
+Triangle - a>-b>=(a>+(-b>))
+
+
+Properties 
+
+1) Commutative - u>+v> = v>+u>
+2) Associative -(u>+v>)+w>=u>+(v>+w>)
+3) Existence of Identity - v>+0>=v>
+4) Additive inverse property - v>+(-v>)=0>
+
+
+Co ordinate system
+
+i>=1 unit in x direction
+j>=1 unit in y direction
+k>=1 unit in z direction
+
+AB> [Resultant vector ]=3i>+4j> [component vector]
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
