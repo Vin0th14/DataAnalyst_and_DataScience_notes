@@ -1,0 +1,21 @@
+The "Mobile_Phones.csv" data is a completely fabricated dataset for use.
+
+Any resemblance to entities past, present or future is merely a coincidence.
+
+PID = a unique identifier for the phone model
+Blue = whether the phone has bluetooth support or not
+Wi_Fi = whether the phone has wifi support or not
+Tch_Scr = whether the phone has touch screen support or not
+Ext_Mem = whether the phone has external memory support or not
+Px_h = number of pixels in the vertical axis of the phone
+Px_w = number of pixels in the horizontal axis of the phone
+Scr_h = height of the screen of the phone in centimetres (cm)
+Scr_w = width of the screen of the phone in centimetres (cm)
+Int_Mem = internal memory of the phone measured in megabytes (MB)
+Bty_Pwr = maximum energy stored by the phone's battery measured in milli-Ampere-hours (mAh)
+PC = resolution of the primary camera measued in megapixels (MP)
+FC = resolution of the front camera measued in megapixels (MP)
+RAM = random access memory available in the phone measured in gigabytes (GB)
+Depth = depth of the mobile phone measured in centimetres (cm)
+Weight = weight of the mobile phone measured in grams (g)
+Price = selling price of the mobile phone in rupees

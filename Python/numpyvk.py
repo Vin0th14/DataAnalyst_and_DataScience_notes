@@ -81,7 +81,7 @@ print(arr)
 print(arr[1:3,4:7])              #syntax  = (row strt:row end , col strt:col end) for 2 d
                                  # 3d = (mat strt:mat end ,row strt:row end , col strt:col end)
 
-#14 ***important***---Diff between array and list is array will chane the value of orginal even if it chaged in future
+#14 ***important***---Diff between array and list is array will change the value of orginal even if it chaged in future
 
 import numpy as np
 

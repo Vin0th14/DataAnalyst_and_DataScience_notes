@@ -2,7 +2,7 @@
 try:
     print(2/0)  # it will show error for zero diviision
 except:
-    print("execued if any error found")
+    print("executed if any error found")
 
 # 2 example...................
 try:
