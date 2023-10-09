@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 # Finding and replacing 0 with nan and removing nan values
-d1=pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/diabetes.csv")
+d1=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/diabetes.csv")
 column_name=list(d1)                                       # getting column name as list
 print(column_name)
 d1[column_name[1:6]]=d1[column_name[1:6]].replace(0,np.nan) #to replace 0 with nan
@@ -11,10 +11,10 @@ d1.dropna(inplace=True)                                    # to remove nan value
 print(d1.head())
 
 # Finding and replacing ? with nan and removing nan values
-d1=pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/diabetes.csv",na_values='?') # convert ? to Nan values
+d1=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/diabetes.csv",na_values='?') # convert ? to Nan values
 
                                                      # perform above steps to remove nan values ^
-
+print(d1.head())
 # to remove a column
 #            d1.drop(['colname'],axis = 1,inplace=True)
 
@@ -27,9 +27,10 @@ import copy
 lst1=[1,2,3,4,5]
 lst2=copy.deepcopy(lst1)
 lst2[0]=10                                  # copied file doesnt affect the original file
+print(lst2)
 print(lst1)
 lst3=copy.copy(lst1)
-lst3[0]=10                                  # copied file affect the original file
+lst3[0]=10                                  # copied file affect the original file when it is multi d list
 print(lst3)
 print(lst1)
 

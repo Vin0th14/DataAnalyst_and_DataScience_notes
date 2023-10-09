@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sn
 
 
-d=pd.read_csv(r"E:/DS_OLD/Python/Cloudyl data sets/Titanic.csv")
+d=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/Titanic.csv")
 print(d.head())
 
 #____________________________________________________________________________________________________________________________________________________________________
@@ -303,7 +303,7 @@ plt.legend(loc=0)
 
 # count plot using Seaborn 
 
-d=pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/Titanic.csv")
+d=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/Titanic.csv")
 print(d.head()) 
 fig=plt.figure(figsize=(6,6))
 sn.countplot(x='Sex',data=d,hue='PClass')    # x = column name , data = datafram name , hue = it divides x based on given column in hue
@@ -323,7 +323,7 @@ sn.displot(x='Age',data=d,kde=True,bins=10, hue=d['Survived'])      # same as kd
 
 # Scatter plot 
 
-df=pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/Iris.csv")
+df=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/Iris.csv")
 print(df.head())
 
 fig=plt.figure(figsize=(6,6))
@@ -350,7 +350,7 @@ sn.heatmap(corr)
 
 # Violin plot
 
-df=pd.read_csv(r"C:/Users/VI40134538\Desktop/py/Cloudyl data sets/Tips.csv")
+df=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/Tips.csv")
 
 fig=plt.figure(figsize=(6,6))
 sn.set_style('dark')                                 # set theme of diagram
