@@ -47,7 +47,7 @@ z=X.drop(columns = constant_columns, axis = 1)        # dropping constant column
 
 print(z.head())
 
-
+# Dataset Link: https://www.kaggle.com/competitions/santander-customer-satisfaction/data
 
 
 
