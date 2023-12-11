@@ -27,6 +27,7 @@ print(d.head())
 ls=[(3,'vinoth',29),(2,'gokul',23),(3,'vinoth',20),(3,'vinoth',20),(3,'gokul',20),(3,'vinoth',25),(6,'saran',20),(3,'vinoth',20)]
 dt=pd.DataFrame(ls,columns=('Roll No','Name','Age'))
 print(dt)
+print(dt.duplicated()) 
 
 '''
 print(dt[dt.duplicated()])            # only show if all values is same
@@ -117,13 +118,13 @@ print(df.describe())                   # from the output  min and max are not no
 print(df.describe([0.01,0.1,0.2,0.5,0.7,0.8,0.90,0.95]))       # you can get more info on where the outlier is present 
 
 # 2) We can use visual representation to find Outlier 
-'''
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-sns.distplot(a=df.Salary,hist=False)
+sns.distplot(a=df.Salary,hist=True)
 plt.show()   # From diagram we can identify the outlier skewed part there is diffrence
-'''
+
 
 # Finding outlier from above data
 print(df[(df.Salary < 1000)|(df.Salary > 100000)])   # we foung outlier we can also set the limit based on buisness requirement

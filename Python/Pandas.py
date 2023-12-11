@@ -40,7 +40,7 @@ print(df1)                #deleting column
 #to fetch values from rows 
 df1.iloc[1:3]            # [(row starting index : ending index) , (col startr : end )   iloc - for index :loc for label
 
-print(df1.loc[['d','e'],['y','z']])
+print(df1.loc[['c','e'],['y','z']])
 
 #5 conditional statements....................................................................
 
@@ -122,37 +122,38 @@ print(df12['col2'].apply(times2))                                               
 print(df12.sort_values('col2'))                                                  #sorting values
 
 #12 Data input and data output.............................................................................
-df13=pd.read_excel('Excel_sample.xlsx')
-print(df13)
-df13.to_csv('Myoutput',index=False)
-print(pd.read_csv('Myoutput'))
+#df13=pd.read_excel('Excel_sample.xlsx')
+#print(df13)
+#df13.to_csv('Myoutput',index=False)
+#print(pd.read_csv('Myoutput'))
 #df14 = pd.read_html('http://www.fdic.gov/bank/individual/failed/banklist.html')
 #print(df14[0])
 
 # to read csv files
 
-df=pd.read_csv(r'C:/Users/VI40134538\Desktop/py/blackfriday.csv')
+df=pd.read_csv(r"E:/DataScience_and_DataAnalyst_Notes/Python/Cloudyl data sets/blackfriday.csv")
 df1=df.head(5)
 print(df1)
 
 #13 To find number of rows and columns
-df13.info()
+df.info()
 
 #14 To find topvalues 
-df13.head()
+df.head()
 
 #14 to find last rows
-df13.tail(2)
-print(df13)
+df.tail(2)
+print(df)
 
 # to find duplicates
 
-df13.duplicated()
+print(df.duplicated())
+df.drop_duplicates
 
 
 #  df13.columns = ['a','z']  To change column names
 
-print(df13.a)
+print(df)
 
 #date range
 
