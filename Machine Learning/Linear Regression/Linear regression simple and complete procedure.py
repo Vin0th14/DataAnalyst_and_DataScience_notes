@@ -52,12 +52,13 @@ intercept=lm.intercept_              # our fitted regression line y=5*x+40
 
 print(slope,intercept)
 
-# calculating Root mean square and  r2_score
+# calculating Root mean square error and  r2_score
 
 mse=mean_squared_error(y_test,y_pred)
 rmse=np.sqrt(mse)
-print("RMSE :",rmse)
+print("RMSE :",rmse)                             # model is performing well if RMSE score is low
 print("R2 score :",r2_score(y_test,y_pred))      # model is performing well if the score of r2 is high (more that 70 or 80)
+                                                        # cross validation score sould be higher
 
 # plotting residual errors
 plt.figure()
@@ -67,6 +68,7 @@ plt.title("Residual errors")
 #plt.show()
 
 # Regression line
+plt.figure()
 plt.scatter(X_test,y_test,color='Blue',label="Scatter plot")
 plt.plot(X_test,y_pred,color="black",linewidth=3,label="Regression line")
 plt.legend(loc=4)
