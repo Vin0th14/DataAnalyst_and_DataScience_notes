@@ -1,0 +1,19 @@
+
+# 1 To select the numerical data types 
+
+new_df = df.select_dtypes(include=['float64','int64'])
+
+# 2 Label encoder 
+
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+X['Column_name']=le.fit_transform(X['Column_name'])
+
+# 3 Train test split
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 1)
+
+# 4 classification report
+from sklearn.metrics import classification_report
+print(classification_report(y_test,y_pred_class))
